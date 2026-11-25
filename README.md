@@ -4,7 +4,7 @@ Descargas oficiales del launcher de Minecraft **Vaporeon**.
 
 ## Descargas
 
-- [Última versión](../../releases/latest)
+- [Última versión](https://github.com/hotcakes-py/Vaporeon/releases/latest)
 - `Vaporeon-Installer.exe` — instalador de Windows. Instala solamente `Vaporeon.exe` y crea las carpetas de datos en `%APPDATA%\.vaporeon`.
 - `Vaporeon-Portable.zip` — versión portable: contiene únicamente `Vaporeon.exe`, sin carpetas `src` ni archivos de compilación.
 
