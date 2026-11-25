@@ -10,6 +10,22 @@ Descargas oficiales del launcher de Minecraft **Vaporeon**.
 
 Cada `push` en el repositorio privado `VaporeonCode` compila automáticamente ambos archivos y los publica aquí como un release.
 
+## Sobre el aviso de Windows SmartScreen
+
+Si Windows muestra "Windows protegió su equipo" o dice que el archivo "no puede
+ser seguro", **no significa que tenga un virus**: aparece porque el ejecutable
+es nuevo y todavía no tiene reputación. La forma legítima de quitarlo es firmar
+el código con un certificado de Code Signing; los builds se firman
+automáticamente cuando el certificado está configurado. Un certificado **EV**
+suele eliminar el aviso casi de inmediato; con un **OV** Windows puede seguir
+mostrándolo hasta que el archivo gane reputación.
+
+Puedes comprobar la firma de un archivo descargado con:
+
+```powershell
+signtool verify /pa Vaporeon-Installer.exe
+```
+
 ## Datos
 
 Toda la configuración, skins, instancias y archivos del juego se guardan en:
